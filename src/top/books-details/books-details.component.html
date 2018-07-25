@@ -1,0 +1,87 @@
+<!-- <p>
+  books-details works!
+</p> -->
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <div class="product-image">
+          <div class="view hm-zoom z-depth-2" style="cursor: pointer">
+            <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/900px-No_image_available_600_x_450.svg.png " alt="" width="50%" class="img-fluid rounded">
+            <!-- <img src="{{ }}" alt="" width="50%" class="img-fluid rounded"y> -->
+          </div>
+          <div class="" style="margin-top:15px ; align-self: center">
+            
+           <!-- <button class="btn btn-primary" routerLink="/viewcart">Add to Cart</button>-->
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Add to cart
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <!-- <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div> -->
+                  <div class="modal-body">
+                    Your Product has been added to the cart successfully.
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Continue Shopping</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>    
+           &nbsp; &nbsp; 
+           <!-- <button class="btn btn-success">Buy Now</button> -->
+           <!-- <button class="btn btn-success" routerLink="/payment">Buy Now</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="product-detail">
+          <h5 class="product-head" style="font-weight: bold ; font-size: 20px">Book Details</h5>
+          <table class="table" cellspacing="0" style="max-height: 28px ">
+            <tbody>
+              <tr>
+                <th scope="row">Book Name</th>
+                <td>
+                  {{bookdetail.name}}
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Book Author</th>
+                <td>
+                  {{bookdetail.author}}
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Price</th>
+                <td>
+                  {{bookdetail.price}}
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Rating</th>
+                <td>
+                  {{bookdetail.rating}}
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Rating Count</th>
+                <td>
+                  {{bookdetail.ratingCount}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>

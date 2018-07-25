@@ -1,0 +1,30 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+      
+      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+      /* .row.content {height: 1000px;} */
+      
+      /* Set gray background color and 100% height */
+      .sidenav {
+        padding-top: 20px;
+        /* background-color:lightblue; */
+        height: 650px;
+      }
+
+      .header-label {
+        color: white;
+        text-transform: uppercase !important;
+        background-color:#2861ba;
+  
+    }
+
+    .checkbox {
+      color:#337ab7;
+    }
+    
+    ul {
+      font-size: 18px;
+    }

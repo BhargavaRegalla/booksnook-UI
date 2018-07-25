@@ -1,0 +1,25 @@
+
+.product-thumb {
+    padding: 25px 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+em {
+    color: black;
+    font-size: 12px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(46, 46, 48);
+  }
+
